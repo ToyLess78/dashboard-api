@@ -1,0 +1,23 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "API for NodeJS tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToyLess78/dashboard-api.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "API"
+  ],
+  "author": "ToyLess78",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToyLess78/dashboard-api/issues"
+  },
+  "homepage": "https://github.com/ToyLess78/dashboard-api#readme"
+}

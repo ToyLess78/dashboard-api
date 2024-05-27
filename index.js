@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
                 case '/hello':
                     res.statusCode = 200;
                     res.setHeader('Content-Type', 'text/plain');
-                    res.end('Привет!');
+                    res.end('Hi!');
                     break;
             }
             break;
@@ -18,5 +18,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, host, () => {
-    console.log(`Сервер запущен на ${host}:${port}`);
+    console.log(`Server running on ${host}:${port}`);
 });

@@ -2,6 +2,11 @@ import express from 'express';
 
 const userRouter = express.Router();
 
+userRouter.use((req, res, next) => {
+    console.log('Handler users');
+    next();
+});
+
 userRouter.post('/login', (req, res) => {
     res.send('login');
 });

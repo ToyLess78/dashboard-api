@@ -2,7 +2,7 @@
   "name": "dashboard-api",
   "version": "1.0.0",
   "description": "API for NodeJS tutorial project",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "start": "node ./dist/index.js",

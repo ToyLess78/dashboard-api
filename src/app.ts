@@ -1,5 +1,5 @@
 import express, { Express } from 'express';
-import { userRouter } from './users/users';
+import { ILogger } from './logger/logger.interface';
 import { Server } from 'http';
 import { LoggerService } from './logger/logger.service';
 import { UserController } from './users/users.controller';

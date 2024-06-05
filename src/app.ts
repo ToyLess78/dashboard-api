@@ -9,12 +9,12 @@ export class App {
     app: Express;
     server: Server;
     port: number;
-    logger: LoggerService;
+    logger: ILogger;
     userController: UserController;
     exceptionFilter: ExceptionFilter;
 
     constructor(
-        logger: LoggerService,
+        logger: ILogger,
         userController: UserController,
         exceptionFilter: ExceptionFilter
     ) {
